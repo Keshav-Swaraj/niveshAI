@@ -1,0 +1,10 @@
+{
+  "holdings": [
+    {"symbol": "RELIANCE", "company_name": "Reliance Industries Limited", "qty": 50, "avg_price": 2800},
+    {"symbol": "TCS", "company_name": "Tata Consultancy Services", "qty": 20, "avg_price": 3900},
+    {"symbol": "HDFCBANK", "company_name": "HDFC Bank Limited", "qty": 30, "avg_price": 1650},
+    {"symbol": "IREDA", "company_name": "Indian Renewable Energy Development Agency", "qty": 200, "avg_price": 215},
+    {"symbol": "ZOMATO", "company_name": "Zomato Limited", "qty": 100, "avg_price": 142},
+    {"symbol": "CDSL", "company_name": "Central Depository Services Limited", "qty": 15, "avg_price": 1340}
+  ]
+}
