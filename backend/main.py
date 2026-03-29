@@ -20,6 +20,7 @@ from websocket_manager import ws_manager
 from routes.signals import router as signals_router
 from routes.stocks import router as stocks_router
 from routes.portfolio import router as portfolio_router
+from routes.chat import router as chat_router
 
 
 @asynccontextmanager
@@ -75,6 +76,7 @@ app.add_middleware(
 app.include_router(signals_router, prefix="/api")
 app.include_router(stocks_router, prefix="/api")
 app.include_router(portfolio_router, prefix="/api")
+app.include_router(chat_router, prefix="/api")
 
 
 @app.get("/")
